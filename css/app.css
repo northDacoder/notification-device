@@ -1,0 +1,80 @@
+body {
+    font-family: 'Swiss 721 W01', 'Swiss 721 W01 Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*
+Container for the button
+*/
+#square{
+    margin-top:25px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border:solid 1px #666;
+    border-radius: 50%;
+    background: #eee;
+}
+
+/*
+Button element
+*/
+#button{
+    width: 90%;
+    height: 0;
+    padding-bottom: 90%;
+    border:solid 1px #000;
+    border-radius: 50%;
+    margin:5%;
+    background:#fff;
+    position: relative;
+}
+
+/*
+Text for the current switch state
+*/
+#current-state{
+    font-size:80px;
+    color:#666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    width:auto;
+}
+
+/*
+Container for the text items to look like buttons
+*/
+.basic-container {
+    white-space: no-wrap;
+    border-radius: 10px;
+    background:#CFCFCF;
+    width: 70%;
+    height: 50px;
+    padding: 5%;
+    margin: auto;
+    position: relative;
+}
+
+/*
+text inside the button-like containers
+*/
+.basic-text {
+    color:#666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    width:auto;
+}
+
+/*
+background for 'on' state
+*/
+.on{
+    background:#79b821 !important;
+}

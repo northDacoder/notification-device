@@ -1,0 +1,11 @@
+<head>
+    <meta charset="utf-8">
+    <title>{{page.title}}</title>
+    <meta name="description" content="{{page.description}}">
+    {{#st.resources}}
+        <!-- include any app specific css within the resources block.
+             Use version query paramater to bust any caching by the
+             mobile client -->
+		<link rel="stylesheet" href="(css/app.css?v=3)" type="text/css" media="screen" />
+    {{/st.resources}}
+</head>
